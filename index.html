@@ -1,0 +1,43 @@
+<!-- 
+   Define o tipo de documento como HTML5 
+   (informa ao navegador como interpretar o código)
+-->
+<!DOCTYPE html>
+
+<!-- 
+   Atributo lang="en" indica que o conteúdo está em inglês.
+   Se o site for em português, o ideal seria usar lang="pt-BR".
+-->
+<html lang="pt-BR">
+<head>
+
+<!-- Define a codificação de caracteres como UTF-8 (permite acentos, cedilha etc.) -->
+    <meta charset="UTF-8">
+
+<!-- Torna o site responsivo, adaptando-se a celulares e tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas com temas alternativos</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="light-theme">
+    <h1>Lista de tarefas - Edu</h1>
+        <p id="msg">Em andamento:</p>
+        <ul>
+<!-- Lista de tarefas -->
+            <li class="list">Curso Eengenharia de Dados</style></li>
+            <li class="list">Criando um Site Simple (HTML, CSS e JavaScrip)</li>
+            <li>MBA Gestão de Projetos</li>
+        </ul>
+        <div>
+
+<!-- Botão que será usado para alternar o tema -->
+            <button class="btn">Escuro</button>
+        </div>
+
+<!-- Importa o arquivo JavaScript responsável pela troca de temas -->
+        <script src="app.js"></script>
+
+<!-- Mensagem exibida caso o navegador tenha o JavaScript desativado -->
+        <noscript>Você precisa habilitar o JavaScrip para visualizar o site completo</noscript>
+</body>
+</html>
