@@ -1,9 +1,11 @@
+/* Definição de variáveis globais*/
 :root{
     --green: #00ff00;
     --white: #ffffff;
     --black: #000000;
 }
 
+/* Definição de estilos globais*/
 *{
     color: var(--fontColor);
     font-family: helvetica;
@@ -25,6 +27,8 @@ li{
     list-style: square;
 }
 
+/* Definição de temas globais*/
+/*Tema Claro*/
 .light-theme{
     --bg: var:(--green);
     --fontColor: var(--black);
@@ -32,6 +36,7 @@ li{
     --btnFontColor: var(--white);
 }
 
+/*Tema Escuro*/
 .dark-theme{
     --bg: var(--black);
     --fontColor: var(--green);
@@ -39,6 +44,7 @@ li{
     --btnFontColor: var(--black);
 }
 
+/*Estilo do botão de alternância*/
 .btn{
     position: absolute;
     top: 20px;
@@ -51,6 +57,7 @@ li{
     background-color: var(--btnBg);
 }
 
+/* Remove o contorno ao focar no botão */
 .btn:focus{
     outline-style: none;
 }
